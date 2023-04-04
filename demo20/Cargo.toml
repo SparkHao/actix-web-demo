@@ -1,5 +1,5 @@
 [package]
-name = "demo17"
+name = "demo20"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.3.1"
-serde = { version = "1.0.159", features = ["derive"] }
+env_logger = "0.10.0"

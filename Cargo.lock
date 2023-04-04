@@ -453,12 +453,38 @@ dependencies = [
 [[package]]
 name = "demo17"
 version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "serde",
+]
+
+[[package]]
+name = "demo18"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+]
+
+[[package]]
+name = "demo19"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+]
 
 [[package]]
 name = "demo2"
 version = "0.1.0"
 dependencies = [
  "actix-web",
+]
+
+[[package]]
+name = "demo20"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "env_logger",
 ]
 
 [[package]]
